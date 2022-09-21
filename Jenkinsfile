@@ -44,6 +44,11 @@ pipeline {
                 echo 'Reporting....'
             }
         }
+        stage('Requirements') {
+            steps {
+                echo 'Installing requirements...'
+            }
+        }
     }
 
     // the post section is a special collection of stages
