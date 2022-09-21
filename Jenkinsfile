@@ -44,9 +44,9 @@ pipeline {
                 echo 'Reporting....'
             }
         }
-        stage('Requirements') {
+        stage('Requirements2') {
             steps {
-                echo 'Installing requirements...'
+                echo 'Installing requirements21...'
             }
         }
     }
