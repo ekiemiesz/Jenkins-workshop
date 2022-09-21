@@ -21,6 +21,9 @@ pipeline {
           // where Jenkins is running, not the user's time zone
           cron '@midnight'
     }
+    parameters {
+    booleanParam 'Run tests?'
+    }
 
     // the pipeline section we all know and love: stages! :D
     stages {
